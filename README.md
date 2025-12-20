@@ -42,7 +42,7 @@ covering classical machine learning, big data pipelines, and deep learning model
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 - **Languages:** Python, SQL
 - **AI / ML:** scikit-learn, PyTorch, Keras
@@ -53,14 +53,14 @@ covering classical machine learning, big data pipelines, and deep learning model
 
 ---
 
-## 📄 Background
+## Background
 
 - PharmD – Universidad de la República (Uruguay)
 - MSc Big Data & Artificial Intelligence – Universidad ORT Uruguay
 
 ---
 
-## 📫 Contact
+## Contact
 
 - LinkedIn: https://www.linkedin.com/in/oliver-kaminski-871b43221/
 - GitHub: https://github.com/<TU-USUARIO>

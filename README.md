@@ -1,10 +1,9 @@
-# Oliver-Kaminski-Portfolio Knowledge Engineering & AI Portfolio
+# Oliver-Kaminski- Knowledge Engineering & AI Portfolio
 
-PharmD with 6+ years of experience in Quality Assurance & Regulatory Affairs
-in Pharma/IVD, currently completing an MSc in Big Data & Artificial Intelligence.
-My work focuses on the intersection of **Semantic Technologies, Knowledge Graphs,
-and Applied AI**, with strong emphasis on **explainability, traceability, and
-regulatory-grade data quality**.
+PharmD with 6+ years of experience in the Pharma/IVD industry.
+Currently completing the final course of an MSc in Big Data & Artificial Intelligence @ ORT University. My work focuses on 
+the intersection of Semantic Technologies, Knowledge Graphs and AI, with a strong emphasis on explainability,
+traceability, and regulatory-grade data quality.
 
 ## Featured Projects
 
@@ -15,12 +14,21 @@ A neurosymbolic AI pipeline combining Knowledge Graphs, ontologies, SHACL valida
 and LLMs to enable explainable and traceable discovery of predictive cancer biomarkers.
 
 **Key highlights**
-- RDF-based biomedical Knowledge Graph
-- Ontology-driven semantic alignment
-- SHACL-based data quality validation
-- GraphRAG for evidence-grounded LLM responses
 
-🔗 Repository: https://github.com/<TU-USUARIO>/HydrAID-REPO-NAME
+**A) Semantic Database**
+
+- Custom ontology, modeled in OWL SHACL and designed with domain expert input
+- CSV to RDF ETL pipeline grounded in the ontology (yarrml library)
+- RDF Knowledge Graph, semantically aligned with public vocabularies (NCIt, MeSH)
+- Quality validation module using SHACL and SPARQL
+
+**B) Neurosymbolic RAG (metis, metaphactory AI framework)**
+
+- API integration connecting the KG to an LLM (OpenAI GPT 5)
+- Discovery Agent: a layer that converts natural language queries into ontology driven SPARQL queries
+- KG RAG: neurosymbolic reasoning where the LLM interprets and synthesizes SPARQL results from the KG
+
+🔗 Repository: https://github.com/olikamin11-dev/HydrAID-Neurosymbolic-AI-for-Predictive-Biomarkers-in-Cancer-Immunotherapy
 
 ---
 
@@ -38,7 +46,7 @@ covering classical machine learning, big data pipelines, and deep learning model
 
 - **Languages:** Python, SQL
 - **AI / ML:** scikit-learn, PyTorch, Keras
-- **Big Data:** Apache NiFi, Spark
+- **Big Data:** Apache NiFi, Spark, Hive, Hadoop
 - **Semantic Tech:** RDF, OWL, SHACL, SPARQL, GraphDB, Metaphactory
 - **MLOps & Dev:** Git, Docker
 - **Quality & Compliance:** GxP, ISO 13485, Roche Audit Academy
@@ -49,7 +57,6 @@ covering classical machine learning, big data pipelines, and deep learning model
 
 - PharmD – Universidad de la República (Uruguay)
 - MSc Big Data & Artificial Intelligence – Universidad ORT Uruguay
-- Quality Assurance & Regulatory Country Lead – Roche Diagnostics
 
 ---
 

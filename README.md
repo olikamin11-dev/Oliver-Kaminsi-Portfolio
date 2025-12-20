@@ -38,7 +38,7 @@ and LLMs to enable explainable and traceable discovery of predictive cancer biom
 A curated collection of hands-on projects developed during my MSc in Big Data & AI,
 covering classical machine learning, big data pipelines, and deep learning models.
 
-🔗 Repository: https://github.com/<TU-USUARIO>/msc-ai-bigdata-coursework
+🔗 Repository: https://github.com/olikamin11-dev/ai-bigdata-coursework-oliver-kaminski
 
 ---
 

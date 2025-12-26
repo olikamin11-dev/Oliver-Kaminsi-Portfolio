@@ -63,4 +63,4 @@ covering classical machine learning, big data pipelines, and deep learning model
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/oliver-kaminski-871b43221/
-- GitHub: https://github.com/<TU-USUARIO>
+- GitHub: [https://github.com/<TU-USUARIO>](https://github.com/olikamin11-dev/Oliver-Kaminsi-Portfolio)

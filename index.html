@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oliver Kaminski — Portfolio</title>
+  <style>
+    :root { --bg:#0b0f14; --card:#121826; --text:#e7eef8; --muted:#9fb0c3; --accent:#4da3ff; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 20px; }
+    .top { display:flex; gap:20px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+    h1 { font-size: 34px; margin: 0; }
+    .bio { color: var(--muted); max-width: 720px; line-height: 1.5; }
+    .links a { color: var(--text); text-decoration:none; margin-right: 14px; }
+    .links a:hover { color: var(--accent); }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 26px; }
+    .card { background: var(--card); border: 1px solid rgba(255,255,255,.06); border-radius: 14px; padding: 16px; }
+    .tag { display:inline-block; font-size: 12px; color: var(--muted); border: 1px solid rgba(255,255,255,.10); padding: 4px 8px; border-radius: 999px; margin-bottom: 10px; }
+    .card h3 { margin: 8px 0 6px; }
+    .card p { margin: 0 0 12px; color: var(--muted); line-height: 1.45; }
+    .card a { color: var(--accent); text-decoration:none; margin-right: 12px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Oliver Kaminski</h1>
+        <p class="bio">
+          PharmD with 6+ years of experience in the Pharma/IVD industry.
+          Currently completing the final course of an MSc in Big Data & Artificial Intelligence @ ORT University. 
+          My work focuses on the intersection of Semantic Technologies, Knowledge Graphs and AI,
+          with a strong emphasis on explainability, traceability, and regulatory-grade data quality.
+          
+        </p>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/oliver-kaminski-871b43221/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/olikamin11-dev" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="./files/CV_Oliver_Kaminski.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top:28px;">Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <div class="tag">Neurosymbolic AI · Knowledge Graphs · GraphRAG</div>
+        <h3>HydrAID</h3>
+        <p>
+          Ontology-based GraphRAG for explainable multimodal biomarker discovery in cancer immunotherapy (RIS collaboration).
+        </p>
+        <a href="https://github.com/olikamin11-dev/HydrAID-Neurosymbolic-AI-for-Predictive-Biomarkers-in-Cancer-Immunotherapy" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">MSc Coursework</div>
+        <h3>MSc AI & Big Data — Coursework</h3>
+        <p>
+          Consolidated portfolio of supervised ML, unsupervised ML, big data engineering, and deep learning projects.
+        </p>
+        <a href="https://github.com/olikamin11-dev/msc-ai-bigdata-coursework" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+      
+       <div class="card">
+        <div class="tag">Deep-Learning</div>
+        <h3>LAPD Crimes classification</h3>
+        <p>Multilayer Perceptron using TensorFlow and Keras</p>
+        <a href="https://github.com/olikamin11-dev/ai-bigdata-coursework-oliver-kaminski/tree/main/bigdata-engineering" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">Supervised ML</div>
+        <h3>Poverty Classification (ECH Uruguay 2022)</h3>
+        <p>Binary classification with recall-driven model selection and ensemble comparison.</p>
+        <a href="https://github.com/olikamin11-dev/ai-bigdata-coursework-oliver-kaminski/tree/main/supervised-ml" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">Unsupervised ML</div>
+        <h3>Order Segmentation (PedidosYa)</h3>
+        <p>K-Means / K-Medoids clustering with silhouette and PCA/t-SNE/UMAP visual validation.</p>
+        <a href="https://github.com/olikamin11-dev/ai-bigdata-coursework-oliver-kaminski/tree/main/unsupervised-ml" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">Big Data Engineering</div>
+        <h3>Climate Alert Monitoring</h3>
+        <p>Batch pipeline with NiFi → HDFS → Hive → Spark → Superset dashboard.</p>
+        <a href="https://github.com/olikamin11-dev/ai-bigdata-coursework-oliver-kaminski/tree/main/bigdata-engineering" target="_blank" rel="noreferrer">Repo</a>
+      </div>
+ 
+    </div>
+
+    <footer>
+      © <span id="y"></span> Oliver Kaminski · Built with GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
